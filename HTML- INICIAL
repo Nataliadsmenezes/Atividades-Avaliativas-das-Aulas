@@ -1,0 +1,166 @@
+/* ATIVIDADE PRATICA 06 - HTML e CSS (iniciante)
+Criar uma página completa sobre
+um tema de sua escolha: curso,música,jogo,
+anime, livro, mangá, profissão ou empresa.
+Criei sobre música pois toco varios instrumentos e amo música*/
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 06</title>
+</head>
+<body>
+    <link rel ="stylesheet" href="style.css">
+    <header class="Música">
+       <p><h1> Music Is My Life </h1> 
+        <img class="foto" src="logo.jpg" alt="Logo do site"></p>
+        </header>
+    
+        <h2>Menu</h2>
+    <nav class="menu-navegacao">
+        
+            <p><a href="#inicio">Início</a></p>
+            <p><a href="#sobre">Sobre o Site</a></p>
+            <p><a href="#cadastro">Cadastro de Alunos </a></p>
+            <p><a href="#cursos">Cursos e Workshops</a></p>
+    </nav>
+             <p><h3>Início</h3></p>
+    <p><h5> Bem-vindo ao nosso site de música! </h5></p>
+            <p><h3>Sobre o Site </h3></p>
+    <p><h5> Nosso site é dedicado a todos os amantes da música, oferecendo informações sobre instrumentos musicais, 
+        dicas de aprendizado e muito mais.  Explore nosso conteúdo e descubra como a música pode transformar sua vida!
+        E para quem deseja fazer atividades práticas, temos cursos e workshops para todos os níveis. Saiba mais! </h5></p>
+            <p><h3>Cadastro de Alunos</h3></p>
+    <p><h5> Cadastre-se para receber atualizações sobre nossos cursos e eventos.
+            Clique no saiba mais ou preencha o formulário abaixo com suas informações e fique por dentro de tudo que acontece no mundo da música! </h5></p>
+</p1>
+    <div class="product-list">
+                <h3> Cursos e Workshops </h3>
+                <h4><a class="botao" href="#"> Saiba Mais </a></h4>
+            </div>
+
+            <p> </p>
+    <img class="foto" src="violao.jpeg" width="300" height="359" alt="Violão">
+    <img class="foto" src="guitarra.jpeg" width="300" height="359" alt="Guitarra">
+    <img class="foto" src="bateria.jpeg" width="300" height="359" alt="Bateria">
+    <img class="foto" src="teclado.jpeg" width="300" height="359" alt="Bateria">
+        
+    <div class="card">
+        <h2> Cursos Disponíveis </h2>
+        <div class="destaque">Violão : Básico/Intermediário/Avançado</div>
+        <div class="destaque">Guitarra : Básico/Intermediário/Avançado</div>
+        <div class="destaque">Bateria : Básico/Intermediário/Avançado</div>
+        <div class="destaque">Teclado : Básico/Intermediário/Avançado</div></div>
+
+        <div class="container-lado-a-lado">
+        <form class="formulario">
+                <a><h3>Cadastro de Alunos</h3></a>
+                <p><label for="nome">Nome: </label></p>
+                <input type="text" id="nome" name="nome">
+                <p><label for="email"> E-mail:</label></p>
+                <input type="email" id="email" name="email">
+                <p><label for="telefone">Telefone:</label></p>
+                <input type="telelefone" id="telefone" name="telefone">
+                <p><button > Enviar</button> </p>
+            </form>
+            
+            <table class="tabela">
+                <thead>
+                 <tr>
+                    <th>Instrumento</th>
+                    <th> Curso </th>
+                    <th> Duração </th>
+                    <th> Valor </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td> Violão </td>
+                    <td> Iniciante </td>
+                    <td> 3 meses </td>
+                    <td> R$ 300,00 </td>
+                </tr>
+                    <td> Violão </td>
+                    <td> Intermediário </td>
+                    <td> 6 meses </td>
+                    <td> R$ 500,00 </td>
+                </tr>
+                    <td> Violão </td>
+                    <td> Avançado </td>
+                    <td> 12 meses </td>
+                    <td> R$ 800,00 </td>
+                </tr>
+                <tr>
+                    <td> Guitarra </td>
+                    <td> Iniciante </td>
+                    <td> 3 meses </td>
+                    <td> R$ 300,00 </td>
+                </tr>
+                <tr>
+                    <td> Guitarra </td>
+                    <td> Intermeriário </td>
+                    <td> 6 meses </td>
+                    <td> R$ 500,00 </td>
+                </tr>
+                    <tr>
+                    <td> Guitarra </td>
+                    <td> Avançado </td>
+                    <td> 12 meses </td>
+                    <td> R$ 800,00</td>
+                </tr>
+                <tr>    
+                    <td> Bateria </td>
+                    <td> Iniciante </td>
+                    <td> 3 meses </td>
+                    <td> R$ 300,00 </td>
+                <tr>    
+                    <td> Bateria </td>
+                    <td> Intermediário </td>
+                    <td> 6 meses </td>
+                    <td> R$ 500,00 </td>
+                </tr>
+                <tr>    
+                    <td> Bateria </td>
+                    <td> Avançado </td>
+                    <td> 12 meses </td>
+                    <td> R$ 800,00 </td>
+                </tr>
+                <tr>    
+                    <td> Teclado </td>
+                    <td> Iniciante </td>
+                    <td> 3 meses </td>
+                    <td> R$ 300,00 </td>
+                </tr>
+                <tr>    
+                    <td> Teclado </td>
+                    <td> Intermediário </td>
+                    <td> 6 meses </td>
+                    <td> R$ 500,00 </td>
+                </tr>
+                <tr>    
+                    <td> Teclado</td>
+                    <td> Avançado </td>
+                    <td> 12 meses </td>
+                    <td> R$ 800,00 </td>
+                </tr>
+                </tbody>
+            </table></div>
+                <div class="cards"> </div>
+            <a><div class="card">
+            <a><h3> Informações </h3></a>
+            <p><h5> Aqui você encontra todas as informações sobre os cursos e workshops disponíveis. </h5> </p>
+            <p><h5>Entre em contato conosco para mais detalhes e para se inscrever nos cursos. </h5> </p>
+            <p><h5>Estamos ansiosos para ajudá-lo a desenvolver suas habilidades musicais e alcançar seus objetivos! </h5> </p>
+            <p><h5>Telefone: (31) 99195-9073 </h5> </p>
+            <p><h5> Email: <a href="mailto:info@musicismylife.com">  info@musicismylife.com </a></h5> </p> 
+            <p><h5>Instagram:<a href="https://www.instagram.com/_musicismylifeofficial" target="_blank"> @_musicismylifeofficial </h5> </a></p>
+            <p><h5> Endereço: Rua da Música, 123, Belo Horizonte, MG </h5> </p>
+            <p><h5> Horário de Funcionamento: Segunda a Sexta, das 9h às 18h </h5> </p>
+            <p><h5> Copyright © 2026 Music Is My Life. Todos os direitos reservados. </h5></p>
+            <p><h5><a href="politica-de-privacidade.html"> Política de Privacidade </a> | <a href="termos-de-uso.html"> Termos de Uso </a> </h5></p>
+            </div>
+            
+</body>
+</html>
